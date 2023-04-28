@@ -1,0 +1,25 @@
+flutter_native_splash:
+
+# Light mode background color
+  color: "#FFFFFF"
+# Dark mode background color
+  color_dark: "#131521"
+# Light mode splash image
+  image: assets/Images/Logo/Logo.png
+# Dark mode splash image
+  image_dark: assets/Images/Logo/Logo.png
+# For display background fullscreen 
+  fullscreen: true
+
+  android_12:
+# Light mode background color Android 12 and above
+   color: "#FFFFFF"
+# Dark mode background color Android 12 and above
+   color_dark: "#131521"
+# Light mode splash image Android 12 and above
+   image: assets/Images/Logo/Logo.png
+# Dark mode splash image Android 12 and above
+   image_dark: assets/Images/Logo/Logo.png
+# For display background fullscreen 
+   fullscreen: true
+   
