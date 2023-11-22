@@ -10,6 +10,7 @@ class CustomThemes {
   CustomThemes({required this.customColors, required this.customTextStyle});
 
   ThemeData get defaultLightTheme => ThemeData(
+        useMaterial3: false,
         appBarTheme: AppBarTheme(
           systemOverlayStyle: SystemUiOverlayStyle(
               systemNavigationBarColor: customColors.backgroundLight,
@@ -31,6 +32,7 @@ class CustomThemes {
       );
 
   ThemeData get defaultDarkTheme => ThemeData(
+        useMaterial3: false,
         appBarTheme: AppBarTheme(
           systemOverlayStyle: SystemUiOverlayStyle(
             systemNavigationBarColor: customColors.backgroundDark,

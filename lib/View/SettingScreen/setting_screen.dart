@@ -56,7 +56,6 @@ class _SettingScreenState extends State<SettingScreen> {
     return Padding(
       padding: Get.mediaQuery.padding,
       child: Scaffold(
-        primary: false,
         resizeToAvoidBottomInset: false,
         backgroundColor: colorScheme.background,
         appBar: settingAppBar(
